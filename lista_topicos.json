@@ -1,0 +1,127 @@
+{
+  "MATEMÁTICA": [
+    "Conhecimentos numéricos: operações em conjuntos numéricos (naturais, inteiros, racionais e reais)",
+    "Notação científica e representações numéricas",
+    "Porcentagem e juros (simples e compostos)",
+    "Razão, proporção e grandezas proporcionais",
+    "Escalas, divisão proporcional e regra de três",
+    "Conhecimentos algébricos: funções de 1º e 2º grau, polinomiais, exponenciais e logarítmicas",
+    "Análise de gráficos de funções e suas propriedades (crescimento, decrescimento, máximos e mínimos)",
+    "Equações e inequações (algébricas, exponenciais, logarítmicas)",
+    "Sequências numéricas: progressões aritméticas e geométricas",
+    "Conhecimentos geométricos: características de figuras planas e espaciais",
+    "Cálculo de área de figuras planas (triângulos, quadriláteros, círculos)",
+    "Cálculo de volume e área de superfície de sólidos geométricos (prismas, pirâmides, cilindros, cones, esferas)",
+    "Relações métricas nos triângulos e no círculo",
+    "Trigonometria no triângulo retângulo e no ciclo trigonométrico",
+    "Plano cartesiano: distância entre pontos, ponto médio, equações da reta e da circunferência",
+    "Noções de geometria analítica (vetores, retas e planos)",
+    "Estatística e Probabilidade: leitura e interpretação de tabelas e gráficos",
+    "Medidas de tendência central (média, moda, mediana)",
+    "Medidas de dispersão (desvio padrão e variância)",
+    "Cálculo de probabilidade em espaços amostrais equiprováveis",
+    "Princípios de contagem e análise combinatória (arranjo, combinação, permutação)"
+  ],
+  "LINGUAGENS": [
+    "Estudo do Texto: interpretação de textos com diferentes linguagens (verbais, não verbais e mistas)",
+    "Relações entre textos (intertextualidade)",
+    "Reconhecimento de gêneros textuais e seus contextos de produção e circulação",
+    "Análise de recursos expressivos e argumentativos da linguagem",
+    "Funções da linguagem (referencial, emotiva, poética, fática, conativa, metalinguística)",
+    "Variação linguística: dialetos, registros e adequação da linguagem à situação de comunicação",
+    "Norma padrão da língua portuguesa e seus usos em diferentes situações",
+    "Língua Estrangeira Moderna (Inglês ou Espanhol): compreensão e interpretação de textos",
+    "Identificação da função e do uso social da língua estrangeira",
+    "Análise de vocabulário e estruturas linguísticas em contexto",
+    "Literatura: relação entre texto literário e contexto histórico, social e político de produção",
+    "Características dos principais movimentos literários do Brasil e de Portugal",
+    "Análise de elementos da narrativa, do poema e do texto dramático",
+    "Relações entre literatura, outras artes e outros saberes",
+    "Artes: interpretação de obras de arte (visuais, cênicas, musicais)",
+    "Funções da arte e o papel social do artista",
+    "Relação entre as produções artísticas e os contextos culturais",
+    "Reconhecimento do valor da diversidade artística e do patrimônio cultural",
+    "Educação Física: reconhecimento das manifestações corporais como produto cultural",
+    "Linguagem corporal como meio de interação social e formação de identidade",
+    "Transformação de hábitos corporais em função das necessidades cinestésicas",
+    "Tecnologias da Informação e Comunicação: função social dos sistemas de comunicação",
+    "Identificação das diferentes linguagens e seus recursos nos sistemas de comunicação",
+    "Impacto das tecnologias na vida social e no mundo do trabalho"
+  ],
+  "CIENCIAS_DA_NATUREZA": {
+    "BIOLOGIA": [
+      "Citologia (estrutura e fisiologia celular)",
+      "Bioquímica (água, sais minerais, carboidratos, lipídios, proteínas, vitaminas, ácidos nucleicos)",
+      "Metabolismo energético (fotossíntese e respiração celular)",
+      "Genética (leis de Mendel, herança, engenharia genética)",
+      "Evolução (teorias evolutivas, especiação)",
+      "Ecologia (cadeias e teias alimentares, ciclos biogeoquímicos, relações ecológicas)",
+      "Problemas ambientais e desenvolvimento sustentável",
+      "Fisiologia humana (sistemas digestório, respiratório, circulatório, excretor, endócrino, nervoso, locomotor, reprodutor)",
+      "Microbiologia e Biotecnologia",
+      "Reinos dos seres vivos e suas características"
+    ],
+    "FÍSICA": [
+      "Cinemática (movimento, velocidade, aceleração)",
+      "Leis de Newton e suas aplicações (dinâmica)",
+      "Trabalho, energia (cinética, potencial, mecânica) e potência",
+      "Termologia (calor, temperatura, termodinâmica, transmissão de calor)",
+      "Óptica geométrica (reflexão, refração, lentes e espelhos)",
+      "Ondulatória (fenômenos ondulatórios, som e luz)",
+      "Eletrostática e Eletrodinâmica (carga, corrente, tensão, potência, circuitos elétricos)",
+      "Magnetismo e Eletromagnetismo (campos magnéticos, indução)",
+      "Noções de física moderna e suas aplicações tecnológicas"
+    ],
+    "QUÍMICA": [
+      "Estrutura atômica e Tabela Periódica",
+      "Ligações químicas (iônicas, covalentes, metálicas)",
+      "Funções inorgânicas (ácidos, bases, sais, óxidos)",
+      "Cálculo estequiométrico e reações químicas",
+      "Termoquímica (calor de reação, entalpia, Lei de Hess)",
+      "Cinética química (velocidade das reações e fatores que a influenciam)",
+      "Equilíbrio químico (constantes, deslocamento de equilíbrio, pH e pOH)",
+      "Eletroquímica (pilhas e eletrólise)",
+      "Química Orgânica (funções orgânicas, nomenclatura, isomeria, reações orgânicas)",
+      "Propriedades de compostos orgânicos (polímeros, biomoléculas)"
+    ]
+  },
+  "CIENCIAS_HUMANAS": {
+    "HISTÓRIA": [
+      "História do Brasil (Colônia, Império e República)",
+      "Movimentos sociais e lutas por cidadania no Brasil",
+      "História Antiga e Medieval (Grécia, Roma, Feudalismo)",
+      "História Moderna (Renascimento, Reformas, Absolutismo, Iluminismo)",
+      "História Contemporânea (Revolução Francesa, Revoluções Industriais, Guerras Mundiais, Guerra Fria, Globalização)",
+      "História da América e da África",
+      "Patrimônio cultural e memória histórica"
+    ],
+    "GEOGRAFIA": [
+      "Cartografia (leitura e interpretação de mapas e escalas)",
+      "Geografia Física (clima, relevo, vegetação, hidrografia)",
+      "Geografia Agrária e Urbana do Brasil (estrutura fundiária, urbanização, metropolização)",
+      "Dinâmica populacional (crescimento, migrações, estrutura etária)",
+      "Geopolítica mundial (conflitos, fronteiras, blocos econômicos)",
+      "Globalização e seus impactos socioespaciais",
+      "Fontes de energia e recursos minerais",
+      "Questões ambientais em escala local e global"
+    ],
+    "SOCIOLOGIA": [
+      "Indivíduo, cultura e sociedade",
+      "Indústria cultural e meios de comunicação de massa",
+      "Mundo do trabalho e transformações sociais",
+      "Movimentos sociais, cidadania e direitos",
+      "Desigualdades sociais e estratificação",
+      "Instituições sociais (família, escola, Estado)",
+      "Impactos das novas tecnologias na sociedade"
+    ],
+    "FILOSOFIA": [
+      "Filosofia Antiga (pré-socráticos, Sócrates, Platão, Aristóteles)",
+      "Filosofia Medieval (Patrística e Escolástica)",
+      "Filosofia Moderna (Racionalismo, Empirismo, Contratualismo)",
+      "Filosofia Contemporânea (Existencialismo, Escola de Frankfurt, Pós-modernidade)",
+      "Ética e justiça",
+      "Teoria do conhecimento (Epistemologia)",
+      "Filosofia política (democracia, liberdade, poder)"
+    ]
+  }
+}
