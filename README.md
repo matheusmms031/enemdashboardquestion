@@ -141,5 +141,3 @@ O projeto inclui um arquivo `LICENSE` na raiz — verifique o tipo de licença a
 - Criar scaffold do backend em `backend/` com `app.py`, rotas básicas e `requirements.txt`.
 - Criar scaffold do frontend em `frontend/` com `package.json` e estrutura de páginas do dashboard.
 - Adicionar scripts de importação para popular o MongoDB a partir de `dbenem.json`.
-
-Se quiser, eu posso gerar o scaffold inicial do backend (Flask) e do frontend (React) agora.
