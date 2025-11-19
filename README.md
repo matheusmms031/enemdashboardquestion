@@ -8,7 +8,7 @@ Esta aplicação fornece uma interface para explorar todas as questões do ENEM,
 - Habilidades (Matriz do ENEM)
 - Competências (Matriz do ENEM)
 
-**Visão Geral**
+## Visão Geral
 
 O objetivo do projeto é disponibilizar um dashboard amigável que permita professores, estudantes e pesquisadores:
 
@@ -17,7 +17,7 @@ O objetivo do projeto é disponibilizar um dashboard amigável que permita profe
 - filtrar questões por tópicos e metadados;
 - exportar ou consultar os dados via API.
 
-**Arquitetura**
+## Arquitetura
 
 O sistema é dividido em duas partes principais:
 
@@ -25,28 +25,28 @@ O sistema é dividido em duas partes principais:
 - Backend: API REST feita em `Flask` (Python) que expõe endpoints para consulta de questões e estatísticas.
 - Banco de dados: `MongoDB` (NoSQL) para armazenar as questões e metadados.
 
-**Tecnologias**
+## Tecnologias
 
 - **Frontend:** React.js, ferramentas típicas (`npm`/`yarn`, Vite ou Create React App opcional).
 - **Backend:** Python 3.x, Flask, PyMongo (ou motor async alternativo como Motor).
 - **Banco de Dados:** MongoDB (local ou em nuvem — Atlas).
 
-**Estrutura do Repositório**
+## Estrutura do Repositório
 
 - `dbenem.json` : dump ou amostra das questões (formato JSON) usadas para alimentar o banco.
 - `lista_topicos.json` : mapeamento/estrutura de tópicos usado pelo dashboard.
 - `README.md` : este arquivo.
 - `LICENSE` : licença do projeto.
 
-**Pré-requisitos**
+## Pré-requisitos
 
 - `node` e `npm`/`yarn` para o frontend.
 - `python` 3.10+ e `pip` para o backend.
 - Uma instância do MongoDB (local ou Atlas).
 
-**Como executar (desenvolvimento)**
+## Como executar (desenvolvimento)
 
-Backend (Flask)
+### Backend (Flask)
 
 1. Criar e ativar virtualenv:
 
@@ -75,7 +75,7 @@ export FLASK_ENV=development
 flask run --host=0.0.0.0 --port=5000
 ```
 
-Frontend (React)
+### Frontend (React)
 
 1. Entrar na pasta do frontend (quando existir) e instalar dependências:
 
@@ -92,7 +92,7 @@ npm run dev
 npm start
 ```
 
-**Conexão com MongoDB**
+## Conexão com MongoDB
 
 - Importar `dbenem.json` para o MongoDB (exemplo com `mongoimport`):
 
@@ -102,12 +102,12 @@ mongoimport --uri "$MONGO_URI" --collection questões --file dbenem.json --jsonA
 
 - A coleção sugerida: `questoes`.
 
-**Formato dos dados**
+## Formato dos dados
 
 - `dbenem.json` deve ser um array de objetos JSON com campos como `id`, `enunciado`, `alternativas`, `dificuldade`, `habilidades`, `competencias`, `topicos` e outros metadados.
 - `lista_topicos.json` deve conter a lista hierárquica de tópicos usada para filtros e agrupamentos.
 
-**Exemplos de endpoints (sugestão)**
+## Exemplos de endpoints (sugestão)
 
 - `GET /api/questoes` : lista de questões (aceita filtros por dificuldade, habilidade, competência, tópico).
 - `GET /api/questoes/:id` : detalhe de uma questão.
@@ -120,23 +120,23 @@ Exemplo de consulta com query params:
 GET /api/questoes?dificuldade=media&habilidade=H12&topico=funcoes
 ```
 
-**Boas práticas e recomendações**
+## Boas práticas e recomendações
 
 - Indice as coleções no MongoDB para campos usados em filtros (`dificuldade`, `habilidades`, `topicos`) para melhorar performance.
 - Paginação: implemente paginação para `GET /api/questoes` (limit/offset ou cursor-based).
 - Autenticação (opcional): proteger endpoints administrativos se o dashboard tiver painéis privados.
 
-**Como contribuir**
+## Como contribuir
 
 - Abra issues para bugs e features.
 - Envie PRs com uma descrição clara do que foi alterado.
 - Adicione testes (unitários/integrados) para funcionalidades críticas.
 
-**Licença**
+## Licença
 
 O projeto inclui um arquivo `LICENSE` na raiz — verifique o tipo de licença adotada.
 
-**Próximos passos sugeridos**
+## Próximos passos sugeridos
 
 - Criar scaffold do backend em `backend/` com `app.py`, rotas básicas e `requirements.txt`.
 - Criar scaffold do frontend em `frontend/` com `package.json` e estrutura de páginas do dashboard.
