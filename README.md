@@ -123,8 +123,6 @@ GET /api/questoes?dificuldade=media&habilidade=H12&topico=funcoes
 ## Boas práticas e recomendações
 
 - Indice as coleções no MongoDB para campos usados em filtros (`dificuldade`, `habilidades`, `topicos`) para melhorar performance.
-- Paginação: implemente paginação para `GET /api/questoes` (limit/offset ou cursor-based).
-- Autenticação (opcional): proteger endpoints administrativos se o dashboard tiver painéis privados.
 
 ## Como contribuir
 
@@ -136,8 +134,4 @@ GET /api/questoes?dificuldade=media&habilidade=H12&topico=funcoes
 
 O projeto inclui um arquivo `LICENSE` na raiz — verifique o tipo de licença adotada.
 
-## Próximos passos sugeridos
 
-- Criar scaffold do backend em `backend/` com `app.py`, rotas básicas e `requirements.txt`.
-- Criar scaffold do frontend em `frontend/` com `package.json` e estrutura de páginas do dashboard.
-- Adicionar scripts de importação para popular o MongoDB a partir de `dbenem.json`.
